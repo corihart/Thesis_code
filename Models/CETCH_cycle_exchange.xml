@@ -1,0 +1,1194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" sboTerm="SBO:0000624" level="3" version="1" fbc:required="false">
+  <model name="CETCH cycle" fbc:strict="true">
+    <listOfUnitDefinitions>
+      <unitDefinition id="mmol_per_gDW_per_hr">
+        <listOfUnits>
+          <unit kind="mole" exponent="1" scale="-3" multiplier="1"/>
+          <unit kind="gram" exponent="-1" scale="0" multiplier="1"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="3600"/>
+        </listOfUnits>
+      </unitDefinition>
+    </listOfUnitDefinitions>
+    <listOfCompartments>
+      <compartment id="u" constant="true"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species metaid="meta_M_GLYOX" id="M_GLYOX" name="glyoxylate" compartment="u" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:chemicalFormula="C2HO3">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_GLYOX">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:GLYOX"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/glyoxalate"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/glyox"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/glyoxylic acid"/>
+                  <rdf:li rdf:resource="https://identifiers.org/delta_G_f(kcal/mol)/-102.04095"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/HHLFWLYXYJOTON-UHFFFAOYSA-M"/>
+                  <rdf:li rdf:resource="https://identifiers.org/InChI/InChI=1S/C2H2O3/c3-1-2(4)5/h1H,(H,4,5)/p-1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/molecular_weight(daltons)/73.028"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_WATER" id="M_WATER" name="Water" compartment="u" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:chemicalFormula="H2O">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_WATER">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:WATER"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/H2O"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/hydrogen oxide"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/water"/>
+                  <rdf:li rdf:resource="https://identifiers.org/delta_G_f(kcal/mol)/-36.144756"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/XLYOFNOQVPJJNP-UHFFFAOYSA-N"/>
+                  <rdf:li rdf:resource="https://identifiers.org/InChI/InChI=1S/H2O/h1H2"/>
+                  <rdf:li rdf:resource="https://identifiers.org/molecular_weight(daltons)/18.015"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_ACETYL_COA" id="M_ACETYL_COA" name="acetyl-CoA" compartment="u" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:chemicalFormula="C23H34N7O17P3S">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_ACETYL_COA">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:ACETYL-COA"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/acetyl coenzyme-A"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/ac-CoA"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/acetylcoenzyme-A"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/acetyl-S-CoA"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/ac-S-CoA"/>
+                  <rdf:li rdf:resource="https://identifiers.org/delta_G_f(kcal/mol)/-506.8639"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/ZSLZBFCDCINBPY-ZSJPKINUSA-J"/>
+                  <rdf:li rdf:resource="https://identifiers.org/InChI/InChI=1S/C23H38N7O17P3S/c1-12(31)51-7-6-25-14(32)4-5-26-21(35)18(34)23(2,3)9-44-50(41,42)47-49(39,40)43-8-13-17(46-48(36,37)38)16(33)22(45-13)30-11-29-15-19(24)27-10-28-20(15)30/h10-11,13,16-18,22,33-34H,4-9H2,1-3H3,(H,25,32)(H,26,35)(H,39,40)(H,41,42)(H2,24,27,28)(H2,36,37,38)/p-4/t13-,16-,17-,18+,22-/m1/s1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/molecular_weight(daltons)/805.54"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_PROTON" id="M_PROTON" name="Proton" compartment="u" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:chemicalFormula="H">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_PROTON">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:PROTON"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/hydrogen ion"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/proton"/>
+                  <rdf:li rdf:resource="https://identifiers.org/delta_G_f(kcal/mol)/0.42906138"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/GPRLSGONYQIRFK-UHFFFAOYSA-N"/>
+                  <rdf:li rdf:resource="https://identifiers.org/InChI/InChI=1S/p+1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/molecular_weight(daltons)/1.008"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_MAL" id="M_MAL" name="(S)-malate" compartment="u" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:chemicalFormula="C4H4O5">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_MAL">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:MAL"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/(S)-malic acid"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/L-apple acid"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/L-malic acid"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/L-hydroxysuccinic acid"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/L-hydroxybutanedioic acid"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/L-malate"/>
+                  <rdf:li rdf:resource="https://identifiers.org/delta_G_f(kcal/mol)/-161.16376"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/BJEPYKJPYRNKOW-REOHCLBHSA-L"/>
+                  <rdf:li rdf:resource="https://identifiers.org/InChI/InChI=1S/C4H6O5/c5-2(4(8)9)1-3(6)7/h2,5H,1H2,(H,6,7)(H,8,9)/p-2/t2-/m0/s1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/molecular_weight(daltons)/132.07"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_CO_A" id="M_CO_A" name="coenzyme A" compartment="u" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:chemicalFormula="C21H32N7O16P3S">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_CO_A">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:CO-A"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/CoA"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/Co-A-SH"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/HS-CoA"/>
+                  <rdf:li rdf:resource="https://identifiers.org/delta_G_f(kcal/mol)/-493.56613"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/RGJOEKWQDUBAIZ-IBOSZNHHSA-J"/>
+                  <rdf:li rdf:resource="https://identifiers.org/InChI/InChI=1S/C21H36N7O16P3S/c1-21(2,16(31)19(32)24-4-3-12(29)23-5-6-48)8-41-47(38,39)44-46(36,37)40-7-11-15(43-45(33,34)35)14(30)20(42-11)28-10-27-13-17(22)25-9-26-18(13)28/h9-11,14-16,20,30-31,48H,3-8H2,1-2H3,(H,23,29)(H,24,32)(H,36,37)(H,38,39)(H2,22,25,26)(H2,33,34,35)/p-4/t11-,14-,15-,16+,20-/m1/s1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/molecular_weight(daltons)/763.5"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_ATP" id="M_ATP" name="ATP" compartment="u" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:chemicalFormula="C10H12N5O13P3">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_ATP">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:ATP"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/adenylpyrophosphate"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/adenosine-triphosphate"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/adenosine-5&apos;-triphosphate"/>
+                  <rdf:li rdf:resource="https://identifiers.org/delta_G_f(kcal/mol)/-553.6995"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/ZKHQWZAMYRWXGA-KQYNXXCUSA-J"/>
+                  <rdf:li rdf:resource="https://identifiers.org/InChI/InChI=1S/C10H16N5O13P3/c11-8-5-9(13-2-12-8)15(3-14-5)10-7(17)6(16)4(26-10)1-25-30(21,22)28-31(23,24)27-29(18,19)20/h2-4,6-7,10,16-17H,1H2,(H,21,22)(H,23,24)(H2,11,12,13)(H2,18,19,20)/p-4/t4-,6-,7-,10-/m1/s1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/molecular_weight(daltons)/503.15"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_4_HYDROXY_BUTYRATE" id="M_4_HYDROXY_BUTYRATE" name="4-hydroxybutanoate" compartment="u" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:chemicalFormula="C4H7O3">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_4_HYDROXY_BUTYRATE">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:4-HYDROXY-BUTYRATE"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/4-hydroxybutanoic acid"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/4-hydroxybutyric acid"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/γ-hydroxybutyrate"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/γ-hydroxybutyric acid"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/g-hydroxybutyric acid"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/GHB"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/4-hydroxybutyrate"/>
+                  <rdf:li rdf:resource="https://identifiers.org/delta_G_f(kcal/mol)/-48.15422"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/SJZRECIVHVDYJC-UHFFFAOYSA-M"/>
+                  <rdf:li rdf:resource="https://identifiers.org/InChI/InChI=1S/C4H8O3/c5-3-1-2-4(6)7/h5H,1-3H2,(H,6,7)/p-1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/molecular_weight(daltons)/103.1"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_4_HYDROXY_BUTYRYL_COA" id="M_4_HYDROXY_BUTYRYL_COA" name="4-hydroxybutanoyl-CoA" compartment="u" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:chemicalFormula="C25H38N7O18P3S">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_4_HYDROXY_BUTYRYL_COA">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:4-HYDROXY-BUTYRYL-COA"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/4-hydroxybutyryl-CoA"/>
+                  <rdf:li rdf:resource="https://identifiers.org/delta_G_f(kcal/mol)/-498.76944"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/BAMBWCGEVIAQBF-CITAKDKDSA-J"/>
+                  <rdf:li rdf:resource="https://identifiers.org/InChI/InChI=1S/C25H42N7O18P3S/c1-25(2,20(37)23(38)28-6-5-15(34)27-7-9-54-16(35)4-3-8-33)11-47-53(44,45)50-52(42,43)46-10-14-19(49-51(39,40)41)18(36)24(48-14)32-13-31-17-21(26)29-12-30-22(17)32/h12-14,18-20,24,33,36-37H,3-11H2,1-2H3,(H,27,34)(H,28,38)(H,42,43)(H,44,45)(H2,26,29,30)(H2,39,40,41)/p-4/t14-,18-,19-,20+,24-/m1/s1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/molecular_weight(daltons)/849.59"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_ADP" id="M_ADP" name="ADP" compartment="u" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:chemicalFormula="C10H12N5O10P2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_ADP">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:ADP"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/adenosine pyrophosphate"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/adenosine 5&apos;-pyrophosphate"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/adenosine-5&apos;-diphosphate"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/adenosine-diphosphate"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/adenosine-5-diphosphate"/>
+                  <rdf:li rdf:resource="https://identifiers.org/delta_G_f(kcal/mol)/-344.92508"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/XTWYTFMLZFPYCI-KQYNXXCUSA-K"/>
+                  <rdf:li rdf:resource="https://identifiers.org/InChI/InChI=1S/C10H15N5O10P2/c11-8-5-9(13-2-12-8)15(3-14-5)10-7(17)6(16)4(24-10)1-23-27(21,22)25-26(18,19)20/h2-4,6-7,10,16-17H,1H2,(H,21,22)(H2,11,12,13)(H2,18,19,20)/p-3/t4-,6-,7-,10-/m1/s1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/molecular_weight(daltons)/424.18"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_Pi" id="M_Pi" name="phosphate" compartment="u" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:chemicalFormula="HO4P">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_Pi">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:Pi"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/inorganic phosphate"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/phosphate-inorganic"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/Pi"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/orthophosphate"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/PO43-"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/HPO42-"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/HPO4-2"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/hydrogenphosphate"/>
+                  <rdf:li rdf:resource="https://identifiers.org/delta_G_f(kcal/mol)/-252.94714"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/NBIIXXVUZAFLBC-UHFFFAOYSA-L"/>
+                  <rdf:li rdf:resource="https://identifiers.org/InChI/InChI=1S/H3O4P/c1-5(2,3)4/h(H3,1,2,3,4)/p-2"/>
+                  <rdf:li rdf:resource="https://identifiers.org/molecular_weight(daltons)/95.979"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_NADP" id="M_NADP" name="NADP+" compartment="u" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:chemicalFormula="C21H25N7O17P3">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_NADP">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:NADP"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/coenzyme II"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/triphosphopyridine nucleotide"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/nicotinamide adenine dinucleotide phosphate"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/NADP-oxidized"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/NADP-ox"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/TPN"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/TPN+"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/TPN-ox"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/nicotinamide adenine dinucleotide-P"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/NADP(+)"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/NADP"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/β-NADP+"/>
+                  <rdf:li rdf:resource="https://identifiers.org/delta_G_f(kcal/mol)/-563.64954"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/XJLXINKUBYWONI-NNYOXOHSSA-K"/>
+                  <rdf:li rdf:resource="https://identifiers.org/InChI/InChI=1S/C21H28N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1-4,7-8,10-11,13-16,20-21,29-31H,5-6H2,(H7-,22,23,24,25,32,33,34,35,36,37,38,39)/p-3/t10-,11-,13-,14-,15-,16-,20-,21-/m1/s1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/molecular_weight(daltons)/740.39"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_NADPH" id="M_NADPH" name="NADPH" compartment="u" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:chemicalFormula="C21H26N7O17P3">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_NADPH">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:NADPH"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/reduced nicotinamide adenine dinucleotide phosphate"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/NADPH2"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/dihydrotriphosphopyridine nucleotide"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/reduced dihydrotriphosphopyridine nucleotide"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/dihydronicotinamide adenine dinucleotide phosphate"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/dihydronicotinamide adenine dinucleotide phosphate reduced"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/reduced NADP"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/NADP-red"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/TPNH"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/dihydronicotinamide adenine dinucleotide-P"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/β-NADPH"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/β-nicotinamide adenine dinucleotide phosphate, reduced"/>
+                  <rdf:li rdf:resource="https://identifiers.org/delta_G_f(kcal/mol)/-551.72284"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/ACFIXJIJDZMPPO-NNYOXOHSSA-J"/>
+                  <rdf:li rdf:resource="https://identifiers.org/InChI/InChI=1S/C21H30N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1,3-4,7-8,10-11,13-16,20-21,29-31H,2,5-6H2,(H2,23,32)(H,36,37)(H,38,39)(H2,22,24,25)(H2,33,34,35)/p-4/t10-,11-,13-,14-,15-,16-,20-,21-/m1/s1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/molecular_weight(daltons)/741.39"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_SUCC_S_ALD" id="M_SUCC_S_ALD" name="succinate semialdehyde" compartment="u" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:chemicalFormula="C4H5O3">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_SUCC_S_ALD">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:SUCC-S-ALD"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/succinyl semialdehyde"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/succ-S-ald"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/succinic semialdehyde"/>
+                  <rdf:li rdf:resource="https://identifiers.org/delta_G_f(kcal/mol)/-59.216465"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/UIUJIQZEACWQSV-UHFFFAOYSA-M"/>
+                  <rdf:li rdf:resource="https://identifiers.org/InChI/InChI=1S/C4H6O3/c5-3-1-2-4(6)7/h3H,1-2H2,(H,6,7)/p-1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/molecular_weight(daltons)/101.08"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_OXYGEN_MOLECULE" id="M_OXYGEN_MOLECULE" name="dioxygen" compartment="u" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:chemicalFormula="O2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_OXYGEN_MOLECULE">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:OXYGEN-MOLECULE"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/oxygen molecule"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/molecular oxygen"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/oxygen"/>
+                  <rdf:li rdf:resource="https://identifiers.org/delta_G_f(kcal/mol)/3.92"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/MYMOFIZGZYHOMD-UHFFFAOYSA-N"/>
+                  <rdf:li rdf:resource="https://identifiers.org/InChI/InChI=1S/O2/c1-2"/>
+                  <rdf:li rdf:resource="https://identifiers.org/molecular_weight(daltons)/31.999"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_CPD_9407" id="M_CPD_9407" name="(2S)-methylsuccinyl-CoA" compartment="u" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:chemicalFormula="C26H37N7O19P3S">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_CPD_9407">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META: CPD-9407"/>
+                  <rdf:li rdf:resource="https://identifiers.org/delta_G_f(kcal/mol)/-555.2591"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/OUFHQHVVFSERRI-VKBDFPRVSA-I"/>
+                  <rdf:li rdf:resource="https://identifiers.org/InChI/InChI=1S/C26H42N7O19P3S/c1-13(8-16(35)36)25(40)56-7-6-28-15(34)4-5-29-23(39)20(38)26(2,3)10-49-55(46,47)52-54(44,45)48-9-14-19(51-53(41,42)43)18(37)24(50-14)33-12-32-17-21(27)30-11-31-22(17)33/h11-14,18-20,24,37-38H,4-10H2,1-3H3,(H,28,34)(H,29,39)(H,35,36)(H,44,45)(H,46,47)(H2,27,30,31)(H2,41,42,43)/p-5/t13-,14+,18+,19+,20-,24+/m0/s1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/molecular_weight(daltons)/876.6"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_CPD_9408" id="M_CPD_9408" name="2-methylfumaryl-CoA" compartment="u" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:chemicalFormula="C26H35N7O19P3S">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_CPD_9408">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:CPD-9408"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/mesaconyl-C1-CoA"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/(E)-3-carboxy-2-methylprop-2-enoyl-CoA"/>
+                  <rdf:li rdf:resource="https://identifiers.org/delta_G_f(kcal/mol)/-557.10126"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/LVBVWNJPMXCQJE-CBBDEUQJSA-I"/>
+                  <rdf:li rdf:resource="https://identifiers.org/InChI/InChI=1S/C26H40N7O19P3S/c1-13(8-16(35)36)25(40)56-7-6-28-15(34)4-5-29-23(39)20(38)26(2,3)10-49-55(46,47)52-54(44,45)48-9-14-19(51-53(41,42)43)18(37)24(50-14)33-12-32-17-21(27)30-11-31-22(17)33/h8,11-12,14,18-20,24,37-38H,4-7,9-10H2,1-3H3,(H,28,34)(H,29,39)(H,35,36)(H,44,45)(H,46,47)(H2,27,30,31)(H2,41,42,43)/p-5/b13-8+/t14-,18-,19-,20+,24-/m1/s1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/molecular_weight(daltons)/874.58"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_HYDROGEN_PEROXIDE" id="M_HYDROGEN_PEROXIDE" name="hydrogen peroxide" compartment="u" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:chemicalFormula="H2O2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_HYDROGEN_PEROXIDE">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:HYDROGEN-PEROXIDE"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/hydroperoxide"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/perhydrol"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/H2O2"/>
+                  <rdf:li rdf:resource="https://identifiers.org/delta_G_f(kcal/mol)/-11.457759"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/MHAJPDPJQMAIIY-UHFFFAOYSA-N"/>
+                  <rdf:li rdf:resource="https://identifiers.org/InChI/InChI=1S/H2O2/c1-2/h1-2H"/>
+                  <rdf:li rdf:resource="https://identifiers.org/molecular_weight(daltons)/34.015"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_PROPIONYL_COA" id="M_PROPIONYL_COA" name="propanoyl-CoA" compartment="u" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:chemicalFormula="C24H36N7O17P3S">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_PROPIONYL_COA">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:PROPIONYL-COA"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/n-propionyl-CoA"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/propionyl-CoApropionyl-coenzyme A"/>
+                  <rdf:li rdf:resource="https://identifiers.org/delta_G_f(kcal/mol)/-484.70157"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/QAQREVBBADEHPA-IEXPHMLFSA-J"/>
+                  <rdf:li rdf:resource="https://identifiers.org/InChI/InChI=1S/C24H40N7O17P3S/c1-4-15(33)52-8-7-26-14(32)5-6-27-22(36)19(35)24(2,3)10-45-51(42,43)48-50(40,41)44-9-13-18(47-49(37,38)39)17(34)23(46-13)31-12-30-16-20(25)28-11-29-21(16)31/h11-13,17-19,23,34-35H,4-10H2,1-3H3,(H,26,32)(H,27,36)(H,40,41)(H,42,43)(H2,25,28,29)(H2,37,38,39)/p-4/t13-,17-,18-,19+,23-/m1/s1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/molecular_weight(daltons)/819.57"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_ACRYLYL_COA" id="M_ACRYLYL_COA" name="acryloyl-CoA" compartment="u" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:chemicalFormula="C24H34N7O17P3S">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_ACRYLYL_COA">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:ACRYLYL-COA"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/acrylyl-coenzyme A"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/propenoyl-CoA"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/acrylyl-CoA"/>
+                  <rdf:li rdf:resource="https://identifiers.org/delta_G_f(kcal/mol)/-485.0938"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/POODSGUMUCVRTR-IEXPHMLFSA-J"/>
+                  <rdf:li rdf:resource="https://identifiers.org/InChI/InChI=1S/C24H38N7O17P3S/c1-4-15(33)52-8-7-26-14(32)5-6-27-22(36)19(35)24(2,3)10-45-51(42,43)48-50(40,41)44-9-13-18(47-49(37,38)39)17(34)23(46-13)31-12-30-16-20(25)28-11-29-21(16)31/h4,11-13,17-19,23,34-35H,1,5-10H2,2-3H3,(H,26,32)(H,27,36)(H,40,41)(H,42,43)(H2,25,28,29)(H2,37,38,39)/p-4/t13-,17-,18-,19+,23-/m1/s1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/molecular_weight(daltons)/817.55"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_CPD_9406" id="M_CPD_9406" name="(2S)-ethylmalonyl-CoA" compartment="u" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:chemicalFormula="C26H37N7O19P3S">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_CPD_9406">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:CPD-9406"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/(S)-ethylmalonyl-CoA"/>
+                  <rdf:li rdf:resource="https://identifiers.org/delta_G_f(kcal/mol)/-555.2591"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/VUGZQVCBBBEZQE-UQCJFRAESA-I"/>
+                  <rdf:li rdf:resource="https://identifiers.org/InChI/InChI=1S/C26H42N7O19P3S/c1-4-13(24(38)39)25(40)56-8-7-28-15(34)5-6-29-22(37)19(36)26(2,3)10-49-55(46,47)52-54(44,45)48-9-14-18(51-53(41,42)43)17(35)23(50-14)33-12-32-16-20(27)30-11-31-21(16)33/h11-14,17-19,23,35-36H,4-10H2,1-3H3,(H,28,34)(H,29,37)(H,38,39)(H,44,45)(H,46,47)(H2,27,30,31)(H2,41,42,43)/p-5/t13-,14+,17+,18+,19-,23+/m0/s1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/molecular_weight(daltons)/876.6"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_CROTONYL_COA" id="M_CROTONYL_COA" name="crotonyl-CoA" compartment="u" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:chemicalFormula="C25H36N7O17P3S">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_CROTONYL_COA">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:CROTONYL-COA"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/crotonyl-S-CoA"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/crotonyl-coenzyme A"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/crotonoyl-CoA"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/2-butenoyl-CoA"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/trans-but-2-enoyl-CoA"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/but-2-enoyl-CoA"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/trans-butyr-2-enoyl-CoA"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/(E)-but-2-enoyl-CoA"/>
+                  <rdf:li rdf:resource="https://identifiers.org/delta_G_f(kcal/mol)/-462.27164"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/KFWWCMJSYSSPSK-PAXLJYGASA-J"/>
+                  <rdf:li rdf:resource="https://identifiers.org/InChI/ InChI=1S/C25H40N7O17P3S/c1-4-5-16(34)53-9-8-27-15(33)6-7-28-23(37)20(36)25(2,3)11-46-52(43,44)49-51(41,42)45-10-14-19(48-50(38,39)40)18(35)24(47-14)32-13-31-17-21(26)29-12-30-22(17)32/h4-5,12-14,18-20,24,35-36H,6-11H2,1-3H3,(H,27,33)(H,28,37)(H,41,42)(H,43,44)(H2,26,29,30)(H2,38,39,40)/p-4/b5-4+/t14-,18-,19-,20+,24-/m1/s1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/molecular_weight(daltons)/831.58"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_CARBON_DIOXIDE" id="M_CARBON_DIOXIDE" name="CO2" compartment="u" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:chemicalFormula="CO2">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_CARBON_DIOXIDE">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META: CARBON-DIOXIDE"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/carbonic anhydride"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/carbonic acid gas"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/carbon dioxide"/>
+                  <rdf:li rdf:resource="https://identifiers.org/delta_G_f(kcal/mol)/-92.26"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/CURLTUGMZLYLDI-UHFFFAOYSA-N"/>
+                  <rdf:li rdf:resource="https://identifiers.org/InChI/InChI=1S/CO2/c2-1-3"/>
+                  <rdf:li rdf:resource="https://identifiers.org/molecular_weight(daltons)/44.01"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_CPD_17635" id="M_CPD_17635" name="(2R)-ethylmalonyl-CoA" compartment="u" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:chemicalFormula="C26H37N7O19P3S">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_CPD_17635">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:CPD-17635"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/(R)-ethylmalonyl-CoA"/>
+                  <rdf:li rdf:resource="https://identifiers.org/delta_G_f(kcal/mol)/-555.2591"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/VUGZQVCBBBEZQE-XGVFZYDCSA-I"/>
+                  <rdf:li rdf:resource="https://identifiers.org/InChI/InChI=1S/C26H42N7O19P3S/c1-4-13(24(38)39)25(40)56-8-7-28-15(34)5-6-29-22(37)19(36)26(2,3)10-49-55(46,47)52-54(44,45)48-9-14-18(51-53(41,42)43)17(35)23(50-14)33-12-32-16-20(27)30-11-31-21(16)33/h11-14,17-19,23,35-36H,4-10H2,1-3H3,(H,28,34)(H,29,37)(H,38,39)(H,44,45)(H,46,47)(H2,27,30,31)(H2,41,42,43)/p-5/t13-,14-,17-,18-,19+,23-/m1/s1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/molecular_weight(daltons)/876.6"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_CPD_9409" id="M_CPD_9409" name="(2R,3S)-β-methylmalyl-CoA" compartment="u" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:chemicalFormula="C26H37N7O20P3S">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_CPD_9409">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:CPD-9409"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/erythro-β-methylmalyl-CoA"/>
+                  <rdf:li rdf:resource="https://identifiers.org/delta_G_f(kcal/mol)/-593.2991"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/OTENCPQKSBPYCM-GQCNFOOOSA-I"/>
+                  <rdf:li rdf:resource="https://identifiers.org/InChI/InChI=1S/C26H42N7O20P3S/c1-12(16(35)24(39)40)25(41)57-7-6-28-14(34)4-5-29-22(38)19(37)26(2,3)9-50-56(47,48)53-55(45,46)49-8-13-18(52-54(42,43)44)17(36)23(51-13)33-11-32-15-20(27)30-10-31-21(15)33/h10-13,16-19,23,35-37H,4-9H2,1-3H3,(H,28,34)(H,29,38)(H,39,40)(H,45,46)(H,47,48)(H2,27,30,31)(H2,42,43,44)/p-5/t12-,13-,16+,17-,18-,19+,23-/m1/s1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/molecular_weight(daltons)/892.59"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_METHYL_MALONYL_COA" id="M_METHYL_MALONYL_COA" name="(R)-methylmalonyl-CoA" compartment="u" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:chemicalFormula="C25H35N7O19P3S">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_METHYL_MALONYL_COA">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META: METHYL-MALONYL-COA"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/L-methylmalonyl-CoA"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/methylmalonyl-CoA"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/methyl-malonyl-coenzyme A"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/CH3-malonyl-CoA"/>
+                  <rdf:li rdf:resource="https://identifiers.org/delta_G_f(kcal/mol)/-577.42126"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/MZFOKIKEPGUZEN-AGCMQPJKSA-I"/>
+                  <rdf:li rdf:resource="https://identifiers.org/InChI/InChI=1S/C25H40N7O19P3S/c1-12(23(37)38)24(39)55-7-6-27-14(33)4-5-28-21(36)18(35)25(2,3)9-48-54(45,46)51-53(43,44)47-8-13-17(50-52(40,41)42)16(34)22(49-13)32-11-31-15-19(26)29-10-30-20(15)32/h10-13,16-18,22,34-35H,4-9H2,1-3H3,(H,27,33)(H,28,36)(H,37,38)(H,43,44)(H,45,46)(H2,26,29,30)(H2,40,41,42)/p-5/t12-,13-,16-,17-,18+,22-/m1/s1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/molecular_weight(daltons)/862.57"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_SUC_COA" id="M_SUC_COA" name="succinyl-CoA" compartment="u" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:chemicalFormula="C25H35N7O19P3S">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_SUC_COA">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:SUC-COA"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/succ-coenzyme-A"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/succ-S-coenzyme-A"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/succinyl-S-coenzyme-A"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/succ-S-CoA"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/succinylcoenzyme-A"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/succ-CoA"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/suc-CoA"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/succinyl-S-CoA"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/succinyl-coenzyme A"/>
+                  <rdf:li rdf:resource="https://identifiers.org/delta_G_f(kcal/mol)/-575.61127"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/VNOYUJKHFWYWIR-ITIYDSSPSA-I"/>
+                  <rdf:li rdf:resource="https://identifiers.org/InChI/ InChI=1S/C25H40N7O19P3S/c1-25(2,20(38)23(39)28-6-5-14(33)27-7-8-55-16(36)4-3-15(34)35)10-48-54(45,46)51-53(43,44)47-9-13-19(50-52(40,41)42)18(37)24(49-13)32-12-31-17-21(26)29-11-30-22(17)32/h11-13,18-20,24,37-38H,3-10H2,1-2H3,(H,27,33)(H,28,39)(H,34,35)(H,43,44)(H,45,46)(H2,26,29,30)(H2,40,41,42)/p-5/t13-,18-,19-,20+,24-/m1/s1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/molecular_weight(daltons)/862.57"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_M_CPD_226" id="M_CPD_226" name="vinylacetyl-CoA" compartment="u" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:chemicalFormula="C25H36N7O17P3S">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_M_CPD_226">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:CPD-226"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/3-butenoyl-CoA"/>
+                  <rdf:li rdf:resource="https://identifiers.org/synonyms/but-3-enoyl-CoA"/>
+                  <rdf:li rdf:resource="https://identifiers.org/delta_G_f(kcal/mol)/-461.3816"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey/UATIGEHITDTAGF-CITAKDKDSA-J"/>
+                  <rdf:li rdf:resource="https://identifiers.org/InChI/ InChI=1S/C25H40N7O17P3S/c1-4-5-16(34)53-9-8-27-15(33)6-7-28-23(37)20(36)25(2,3)11-46-52(43,44)49-51(41,42)45-10-14-19(48-50(38,39)40)18(35)24(47-14)32-13-31-17-21(26)29-12-30-22(17)32/h4,12-14,18-20,24,35-36H,1,5-11H2,2-3H3,(H,27,33)(H,28,37)(H,41,42)(H,43,44)(H2,26,29,30)(H2,38,39,40)/p-4/t14-,18-,19-,20+,24-/m1/s1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/molecular_weight(daltons)/831.58"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+    </listOfSpecies>
+    <listOfParameters>
+      <parameter sboTerm="SBO:0000626" id="cobra_default_lb" value="-1000" constant="true"/>
+      <parameter sboTerm="SBO:0000626" id="cobra_default_ub" value="1000" constant="true"/>
+      <parameter sboTerm="SBO:0000626" id="cobra_0_bound" value="0" constant="true"/>
+      <parameter sboTerm="SBO:0000626" id="minus_inf" value="-INF" constant="true"/>
+      <parameter sboTerm="SBO:0000626" id="plus_inf" value="INF" constant="true"/>
+    </listOfParameters>
+    <listOfReactions>
+      <reaction metaid="meta_R_MALSYN_RXN" id="R_MALSYN_RXN" name="malate synthase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_MALSYN_RXN">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/2.3.3.9"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:MALSYN-RXN"/>
+                  <rdf:li rdf:resource="https://identifiers.org/delta_G_r/-9.251221"/>
+                  <rdf:li rdf:resource="https://identifiers.org/Enzyme Commission Summary/The enzyme catalyses the irreversible condensation of acetyl-CoA with glyoxylate to form (S)-malate. Among other functions, the enzyme participates in the glyoxylate cycle, a modified version of the TCA cycle that bypasses steps that lead to a loss of CO2."/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="M_ACETYL_COA" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_GLYOX" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_WATER" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_MAL" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_CO_A" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_PROTON" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_RXN_8961" id="R_RXN_8961" name="malyl-CoA lyase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_RXN_8961">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/4.1.3.24"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:RXN-8961"/>
+                  <rdf:li rdf:resource="https://identifiers.org/delta_G_r/6.5565796"/>
+                  <rdf:li rdf:resource="https://identifiers.org/Enzyme Commission Summary/The enzymes from Rhodobacter species catalyze a step in the ethylmalonyl-CoA pathway for acetate assimilation [Meister05, Erb10]. The enzyme from halophilic bacteria participate in the methylaspartate cycle and catalyze the reaction in the direction of malyl-CoA formation [Borjian17]. The enzyme from the bacterium Chloroflexus aurantiacus, which participates in the 3-hydroxypropanoate cycle for carbon assimilation, also has the activity of EC 4.1.3.25, (S)-citramalyl-CoA lyase [Herter02, Friedmann07]."/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="M_CPD_9409" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_GLYOX" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_PROPIONYL_COA" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_RXN_15977" id="R_RXN_15977" name="acyl-CoA oxidase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_RXN_15977">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.3.6"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:RXN-15977"/>
+                  <rdf:li rdf:resource="https://identifiers.org/delta_G_r/-15.77002"/>
+                  <rdf:li rdf:resource="https://identifiers.org/Enzyme Commission Summary/A flavoprotein (FAD). Acts on CoA derivatives of fatty acids with chain lengths from 8 to 18."/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="M_PROPIONYL_COA" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_OXYGEN_MOLECULE" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_ACRYLYL_COA" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_HYDROGEN_PEROXIDE" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_RXN_18384" id="R_RXN_18384" name="crotonyl-CoA carboxylase/reductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_RXN_18384">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.1.85"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:RXN-18384"/>
+                  <rdf:li rdf:resource="https://identifiers.org/delta_G_r/11.994141"/>
+                  <rdf:li rdf:resource="https://identifiers.org/Enzyme Commission Summary/The reaction is catalysed in the reverse direction. This enzyme, isolated from the bacterium Rhodobacter sphaeroides, catalyses E)-but-2-enoyl-CoA-dependent oxidation of NADPH in the presence of CO2. When CO2 is absent, the enzyme catalyses the reduction of E)-but-2-enoyl-CoA to butanoyl-CoA, but with only 10% of maximal activity relative to E)-but-2-enoyl-CoA carboxylation (c.f. EC 1.3.1.86, crotonyl-CoA reductase)."/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="M_ACRYLYL_COA" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_CARBON_DIOXIDE" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_NADPH" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_METHYL_MALONYL_COA" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_NADP" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_METHYLMALONYL_COA_MUT_RXN" id="R_METHYLMALONYL_COA_MUT_RXN" name="methylmalonyl-CoA mutase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_METHYLMALONYL_COA_MUT_RXN">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/5.4.99.2"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:METHYLMALONYL-COA-MUT-RXN"/>
+                  <rdf:li rdf:resource="https://identifiers.org/delta_G_r/1.81"/>
+                  <rdf:li rdf:resource="https://identifiers.org/Enzyme Commission Summary/Requires a cobamide coenzyme."/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="M_METHYL_MALONYL_COA" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_SUC_COA" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_RXN_8891" id="R_RXN_8891" name="succinate-semialdehyde dehydrogenase (acylating)" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_RXN_8891">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.2.1.76"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:RXN-8891"/>
+                  <rdf:li rdf:resource="https://identifiers.org/delta_G_r/-10.4729"/>
+                  <rdf:li rdf:resource="https://identifiers.org/Enzyme Commission Summary/Catalyses the NADPH-dependent reduction of succinyl-CoA to succinate semialdehyde. The enzyme has been described in Clostridium kluyveri, where it participates in succinate fermentation [Sohling93], and in Metallosphaera sedula, where it participates in the 3-hydroxypropionate/4-hydroxybutyrate cycle, an autotrophic CO2 fixation pathway found in some thermoacidophilic archaea [Alber06a, Berg07]."/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="M_SUCC_S_ALD" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_CO_A" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_NADP" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_SUC_COA" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_NADPH" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_PROTON" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_RXN_11002" id="R_RXN_11002" name="succinate semialdehyde reductase (NADPH)" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_RXN_11002">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.1.1.co"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:RXN-11002"/>
+                  <rdf:li rdf:resource="https://identifiers.org/delta_G_r/1.2935181"/>
+                  <rdf:li rdf:resource="https://identifiers.org/Enzyme Commission Summary/The reduction of succinate semialdehyde with NADPH to 4-hydroxybutanoate is part of the 3-hydroxypropanoate/4-hydroxybutanate cycle, an autotrophic CO2 fixation pathway found in some thermoacidophilic archaea such as Metallosphaera sedula. A zinc protein."/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="M_SUCC_S_ALD" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_NADPH" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_PROTON" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_4_HYDROXY_BUTYRATE" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_NADP" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_RXN_18387" id="R_RXN_18387" name="4-hydroxybutyrate—CoA ligase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_RXN_18387">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/6.2.1.56"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:RXN-18387"/>
+                  <rdf:li rdf:resource="https://identifiers.org/delta_G_r/-1.2216797"/>
+                  <rdf:li rdf:resource="https://identifiers.org/Enzyme Commission Summary/(ADP-forming) The enzyme, characterized from the marine ammonia-oxidizing archaeon Nitrosopumilus maritimus, participates in a variant of the 3-hydroxypropanoate/4-hydroxybutanate CO2 fixation cycle. cf EC 6.2.1.40, 4-hydroxybutyrate—CoA ligase (AMP-forming)."/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="M_4_HYDROXY_BUTYRATE" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_ATP" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_CO_A" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_ADP" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_4_HYDROXY_BUTYRYL_COA" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_Pi" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_RXN_8890" id="R_RXN_8890" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_RXN_8890">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/4.2.1.120"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:RXN-8890"/>
+                  <rdf:li rdf:resource="https://identifiers.org/delta_G_r/0.3529663"/>
+                  <rdf:li rdf:resource="https://identifiers.org/Enzyme Commission Summary/Contains FAD and a [4Fe-4S] iron-sulfur cluster. The enzyme has been characterized from several microorganisms, including Clostridium kluyveri, where it participates in succinate fermentation [Bartsch61, Scherf94], Clostridium aminobutyricum, where it participates in 4-aminobutanoate degradation [Scherf93, Muh96], and Metallosphaera sedula, where it participates in the 3-hydroxypropanoate/4-hydroxybutanate cycle, an autotrophic CO2 fixation pathway found in some thermoacidophilic archaea [Berg07]."/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="M_4_HYDROXY_BUTYRYL_COA" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_CROTONYL_COA" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_WATER" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_RXN_8957" id="R_RXN_8957" name="crotonyl-CoA carboxylase/reductase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_RXN_8957">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.1.85"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:RXN-8957"/>
+                  <rdf:li rdf:resource="https://identifiers.org/delta_G_r/12.654297"/>
+                  <rdf:li rdf:resource="https://identifiers.org/Enzyme Commission Summary/The reaction is catalysed in the reverse direction. This enzyme, isolated from the bacterium Rhodobacter sphaeroides, catalyses E)-but-2-enoyl-CoA-dependent oxidation of NADPH in the presence of CO2. When CO2 is absent, the enzyme catalyses the reduction of E)-but-2-enoyl-CoA to butanoyl-CoA, but with only 10% of maximal activity relative to E)-but-2-enoyl-CoA carboxylation (c.f. EC 1.3.1.86, crotonyl-CoA reductase)."/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="M_CROTONYL_COA" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_NADPH" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_CARBON_DIOXIDE" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_CPD_9406" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_NADP" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_RXN_16391" id="R_RXN_16391" name="methylmalonyl-CoA epimerase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_RXN_16391">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/5.1.99.1"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:RXN-16391"/>
+                  <rdf:li rdf:resource="https://identifiers.org/Enzyme Commission Summary/"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="M_CPD_9406" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_CPD_17635" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_RXN_8958" id="R_RXN_8958" name="ethylmalonyl-CoA mutase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_RXN_8958">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/5.4.99.63"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:RXN-8958"/>
+                  <rdf:li rdf:resource="https://identifiers.org/Enzyme Commission Summary/The enzyme, characterized from the bacterium Rhodobacter sphaeroides, participates in the ethylmalonyl-CoA pathway for acetyl-CoA assimilation. It is hightly specific for its substrate and requires coenzyme B12 for activity."/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="M_CPD_17635" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_CPD_9407" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_RXN_18381" id="R_RXN_18381" name="methylsuccinyl-CoA oxidase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_RXN_18381">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/1.3.3.M3"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:RXN-18381"/>
+                  <rdf:li rdf:resource="https://identifiers.org/delta_G_r/-17.21991"/>
+                  <rdf:li rdf:resource="https://identifiers.org/Enzyme Commission Summary/This reaction is catalyzed by an engineered form of EC 1.3.8.12, (2S)-methylsuccinyl-CoA dehydrogenase. Three point mutations - T317G, E377N, and W315F, converted the dehydrogenase encoded by the mcd gene of Rhodobacter sphaeroides into a functional methylsuccinyl-CoA oxidase [Schwander16]."/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="M_CPD_9407" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_OXYGEN_MOLECULE" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_CPD_9408" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_HYDROGEN_PEROXIDE" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_RXN_8960" id="R_RXN_8960" name="2-methylfumaryl-CoA hydratase" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_RXN_8960">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/4.2.1.148"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:RXN-8960"/>
+                  <rdf:li rdf:resource="https://identifiers.org/delta_G_r/0.052978516"/>
+                  <rdf:li rdf:resource="https://identifiers.org/Enzyme Commission Summary/The enzyme from the bacterium Chloroflexus aurantiacus is part of the 3-hydroxypropanoate cycle for carbon assimilation."/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="M_CPD_9409" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_CPD_9408" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_WATER" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_MAL_tx" id="R_MAL_tx" name="malate exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_MAL_tx">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:"/>
+                  <rdf:li rdf:resource="https://identifiers.org/Enzyme Commission Summary/"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfProducts>
+          <speciesReference species="M_MAL" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_CO2_tx" id="R_CO2_tx" name="CO2 exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_CO2_tx">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:"/>
+                  <rdf:li rdf:resource="https://identifiers.org/Enzyme Commission Summary/"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfProducts>
+          <speciesReference species="M_CARBON_DIOXIDE" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_ACETYL_COA_tx" id="R_ACETYL_COA_tx" name="ACETYL_COA exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_ACETYL_COA_tx">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:"/>
+                  <rdf:li rdf:resource="https://identifiers.org/Enzyme Commission Summary/"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfProducts>
+          <speciesReference species="M_ACETYL_COA" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_ATP_tx" id="R_ATP_tx" name="ATP exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_ATP_tx">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:"/>
+                  <rdf:li rdf:resource="https://identifiers.org/Enzyme Commission Summary/"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfProducts>
+          <speciesReference species="M_ATP" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_ADP_tx" id="R_ADP_tx" name="ADP exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_ADP_tx">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:"/>
+                  <rdf:li rdf:resource="https://identifiers.org/Enzyme Commission Summary/"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfProducts>
+          <speciesReference species="M_ADP" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_NADPH_tx" id="R_NADPH_tx" name="NADPH exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_NADPH_tx">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:"/>
+                  <rdf:li rdf:resource="https://identifiers.org/Enzyme Commission Summary/"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfProducts>
+          <speciesReference species="M_NADPH" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_NADP_tx" id="R_NADP_tx" name="NADP exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_NADP_tx">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:"/>
+                  <rdf:li rdf:resource="https://identifiers.org/Enzyme Commission Summary/"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfProducts>
+          <speciesReference species="M_NADP" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_PROTON_tx" id="R_PROTON_tx" name="PROTON exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_PROTON_tx">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:"/>
+                  <rdf:li rdf:resource="https://identifiers.org/Enzyme Commission Summary/"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfProducts>
+          <speciesReference species="M_PROTON" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_HYDROGEN_PEROXIDE_tx" id="R_HYDROGEN_PEROXIDE_tx" name="HYDROGEN_PEROXIDE exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_HYDROGEN_PEROXIDE_tx">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:"/>
+                  <rdf:li rdf:resource="https://identifiers.org/Enzyme Commission Summary/"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfProducts>
+          <speciesReference species="M_HYDROGEN_PEROXIDE" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_OXYGEN_MOLECULE_tx" id="R_OXYGEN_MOLECULE_tx" name="OXYGEN_MOLECULE exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_OXYGEN_MOLECULE_tx">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:"/>
+                  <rdf:li rdf:resource="https://identifiers.org/Enzyme Commission Summary/"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfProducts>
+          <speciesReference species="M_OXYGEN_MOLECULE" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_CO_A_tx" id="R_CO_A_tx" name="CO_A exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_CO_A_tx">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:"/>
+                  <rdf:li rdf:resource="https://identifiers.org/Enzyme Commission Summary/"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfProducts>
+          <speciesReference species="M_CO_A" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_Pi_tx" id="R_Pi_tx" name="Pi exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_Pi_tx">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:"/>
+                  <rdf:li rdf:resource="https://identifiers.org/Enzyme Commission Summary/"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfProducts>
+          <speciesReference species="M_Pi" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_WATER_tx" id="R_WATER_tx" name="WATER exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_R_WATER_tx">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code/"/>
+                  <rdf:li rdf:resource="https://identifiers.org/biocyc/META:"/>
+                  <rdf:li rdf:resource="https://identifiers.org/Enzyme Commission Summary/"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfProducts>
+          <speciesReference species="M_WATER" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+    </listOfReactions>
+    <fbc:listOfObjectives fbc:activeObjective="obj">
+      <fbc:objective fbc:id="obj" fbc:type="maximize">
+        <fbc:listOfFluxObjectives>
+          <fbc:fluxObjective fbc:reaction="R_MALSYN_RXN" fbc:coefficient="1"/>
+        </fbc:listOfFluxObjectives>
+      </fbc:objective>
+    </fbc:listOfObjectives>
+  </model>
+</sbml>
