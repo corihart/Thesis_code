@@ -1,0 +1,1339 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg140097"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="FBA_diagram.svg">
+  <defs
+     id="defs140091">
+    <marker
+       inkscape:stockid="TriangleInM"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="TriangleInM"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path11856"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(-0.4)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker137158"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutS">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(0.2)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path137156" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker47193-8-7-7-7"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path47191-6-82-8-5"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker47193-8-7-0-5-9"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path47191-6-82-0-3-2"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker47193-8-7-0-2-5-2"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path47191-6-82-0-5-2-8"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker47193-8-7-0-2-1-3-9"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path47191-6-82-0-5-4-3-7"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker52470-8-5-8-0"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         id="path52468-9-0-08-1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker52470-8-5-67"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         id="path52468-9-0-5"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker52470-8-5-67-3"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         id="path52468-9-0-5-9"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker52712-5-6-0-0-1"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         id="path52710-0-5-6-6-4"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker52712-5-6-0-0-1-6"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         id="path52710-0-5-6-6-4-4"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker52712-5-6-0-0-1-64"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         id="path52710-0-5-6-6-4-47"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker52712-5-6-0-0-1-64-0"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         id="path52710-0-5-6-6-4-47-0"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker52470-8-5-67-3-3"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         id="path52468-9-0-5-9-1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker52470-8-5-67-2"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         id="path52468-9-0-5-2"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker52712-5-6-0-0-1-8-9"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         id="path52710-0-5-6-6-4-1-9"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker52712-5-6-0-0-1-8-9-6"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         id="path52710-0-5-6-6-4-1-9-3"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker52712-5-6-0-0-1-8-94"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         id="path52710-0-5-6-6-4-1-8"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker52712-5-6-0-0-1-8-9-8"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         id="path52710-0-5-6-6-4-1-9-4"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker52712-5-6-0-0-1-8-9-6-0"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         id="path52710-0-5-6-6-4-1-9-3-8"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker52712-5-6-0-0-1-8-9-8-8"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         id="path52710-0-5-6-6-4-1-9-4-7"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker52712-5-6-0-0-1-8-9-6-0-6"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         id="path52710-0-5-6-6-4-1-9-3-8-8"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker52712-5-6-0-0-1-8-9-8-8-1"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         id="path52710-0-5-6-6-4-1-9-4-7-9"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker52712-5-6-0-0-1-8-9-6-0-6-6"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         id="path52710-0-5-6-6-4-1-9-3-8-8-3"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker52470-8-5-67-0"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         id="path52468-9-0-5-4"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker52712-5-6-0-0-1-64-8"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         id="path52710-0-5-6-6-4-47-6"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleInM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleInM-6"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path11856-9"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(-0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker52712-5-6-0-0-1-64-8-7"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         id="path52710-0-5-6-6-4-47-6-2"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="442.69328"
+     inkscape:cy="770.79536"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:object-nodes="false"
+     inkscape:window-width="2560"
+     inkscape:window-height="1365"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata140094">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="background" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4555-0-5-3-9-7-6-0-5"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="matrix(0.10357304,0,0,0.10357304,54.442852,36.630379)"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"><flowRegion
+         id="flowRegion4557-5-9-5-2-9-8-2-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"><rect
+           id="rect4559-58-8-5-6-7-6-7-5"
+           width="239.07213"
+           height="108.31194"
+           x="343.57144"
+           y="485.7536"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none" /></flowRegion><flowPara
+         id="flowPara4561-05-0-8-6-3-3-2-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none" /></flowRoot>    <g
+       id="g169313"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <rect
+         inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         ry="8.7138519"
+         rx="6.8790584"
+         y="39.310509"
+         x="45.989677"
+         height="65.725143"
+         width="100.64429"
+         id="rect3721-5-5-3"
+         style="display:inline;opacity:1;fill:#e1f2d2;fill-opacity:1;fill-rule:evenodd;stroke:#afd3be;stroke-width:0.4582651;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers" />
+      <flowRoot
+         inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         transform="matrix(0.16798811,0,0,0.19515216,26.172581,11.564083)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.35588455px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+         id="flowRoot22644-2-6-1"
+         xml:space="preserve"><flowRegion
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.35588455px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift"
+           id="flowRegion22646-70-1-2"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.35588455px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift"
+             y="99.325073"
+             x="321.42856"
+             height="64.285713"
+             width="177.14285"
+             id="rect22648-9-8-9" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.35588455px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift"
+           id="flowPara22650-3-7-3">DAY</flowPara></flowRoot>      <rect
+         inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         ry="5.313724"
+         rx="9.3321123"
+         y="42.241375"
+         x="71.743462"
+         height="24.232536"
+         width="44.669132"
+         id="rect3721-5-5-3-8"
+         style="display:inline;opacity:1;fill:#92e09f;fill-opacity:1;fill-rule:evenodd;stroke:#50936c;stroke-width:0.19060765;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers" />
+      <rect
+         inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         ry="13.383647"
+         rx="14.141929"
+         y="69.639053"
+         x="70.315834"
+         height="29.001341"
+         width="45.70953"
+         id="rect3721-5-5-3-8-8"
+         style="display:inline;opacity:1;fill:#efedaf;fill-opacity:1;fill-rule:evenodd;stroke:#939a32;stroke-width:0.21093543;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers" />
+      <rect
+         inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         ry="0"
+         rx="0"
+         y="28.502291"
+         x="93.645676"
+         height="96.086197"
+         width="67.086624"
+         id="rect3723-2-8-9-1"
+         style="display:inline;opacity:1;fill:#464cd4;fill-opacity:0.2;fill-rule:evenodd;stroke:none;stroke-width:0.41783682;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers" />
+      <flowRoot
+         inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         transform="matrix(0.16798811,0,0,0.19515216,45.123129,11.429985)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.35588455px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+         id="flowRoot22644-7-6-9-0-7"
+         xml:space="preserve"><flowRegion
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.35588455px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift"
+           id="flowRegion22646-7-0-2-8-8"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.35588455px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift"
+             y="99.325073"
+             x="321.42856"
+             height="64.285713"
+             width="177.14285"
+             id="rect22648-1-6-0-8-2" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.35588455px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="flowPara22650-6-2-2-5-9">NIGHT</flowPara></flowRoot>      <flowRoot
+         xml:space="preserve"
+         id="flowRoot4684-73-1-3-7-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+         transform="matrix(0.10357304,0,0,0.10357304,-32.874067,54.848732)"><flowRegion
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           id="flowRegion4686-2-7-9-6-4"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+             id="rect4688-03-81-0-5-6"
+             width="235.36554"
+             height="98.994949"
+             x="823.27435"
+             y="282.3129" /></flowRegion><flowPara
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           id="flowPara18393-8">NGAM</flowPara></flowRoot>      <rect
+         style="display:inline;opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23918766;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+         id="rect4682-1-7-1-9-1"
+         width="11.070656"
+         height="4.3691754"
+         x="51.293407"
+         y="83.621223"
+         rx="0.7907598"
+         ry="0.61322093" />
+      <path
+         inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:connector-curvature="0"
+         id="path4534-2-5-1-6-7"
+         d="m 42.305982,47.605817 c 7.252234,0 7.252234,0 7.252234,0"
+         style="display:inline;fill:none;stroke:#000000;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker52470-8-5-8-0)" />
+      <flowRoot
+         inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         transform="matrix(0.10357304,0,0,0.10357304,-6.0260825,-4.4628178)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+         id="flowRoot4555-0-5-3-9-14-1"
+         xml:space="preserve"><flowRegion
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           id="flowRegion4557-5-9-5-2-52-9"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+             y="485.7536"
+             x="343.57144"
+             height="57.44215"
+             width="130.82761"
+             id="rect4559-58-8-5-6-5-8" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           id="flowPara4561-05-0-8-6-9-2">photons</flowPara></flowRoot>      <path
+         inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:connector-curvature="0"
+         id="path4534-2-5-1-9"
+         d="m 41.552965,57.741071 c 7.252233,0 7.252233,0 7.252233,0"
+         style="display:inline;fill:none;stroke:#000000;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker52470-8-5-67)" />
+      <path
+         inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:connector-curvature="0"
+         id="path4534-2-5-1-9-9"
+         d="m 50.000456,63.032738 c -7.39648,0 -7.39648,0 -7.39648,0"
+         style="display:inline;fill:none;stroke:#000000;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker52470-8-5-67-3)" />
+      <flowRoot
+         inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         transform="matrix(0.10357304,0,0,0.10357304,-1.4570165,6.1057683)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+         id="flowRoot4555-0-5-3-9-7"
+         xml:space="preserve"><flowRegion
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           id="flowRegion4557-5-9-5-2-9"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+             y="485.7536"
+             x="343.57144"
+             height="53.57143"
+             width="98.571426"
+             id="rect4559-58-8-5-6-7" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           id="flowPara4561-05-0-8-6-3">CO<flowSpan
+   id="flowSpan157723"
+   style="font-size:64.99999762%;baseline-shift:sub">2</flowSpan></flowPara></flowRoot>      <flowRoot
+         inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         transform="matrix(0.10357304,0,0,0.10357304,0.31947161,11.246244)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+         id="flowRoot4555-0-5-3-9-7-0"
+         xml:space="preserve"><flowRegion
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           id="flowRegion4557-5-9-5-2-9-4"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+             y="485.7536"
+             x="343.57144"
+             height="53.57143"
+             width="98.571426"
+             id="rect4559-58-8-5-6-7-1" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           id="flowPara4561-05-0-8-6-3-9">O<flowSpan
+   id="flowSpan157725"
+   style="font-size:64.99999762%;baseline-shift:sub">2</flowSpan></flowPara></flowRoot>      <path
+         inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path4607-6-2-8-4-1-3"
+         d="m 80.31926,109.44007 7.9e-4,-8.4522"
+         style="display:inline;fill:none;stroke:#000000;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker52712-5-6-0-0-1)" />
+      <path
+         inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path4607-6-2-8-4-1-3-2"
+         d="m 107.53352,110.02106 7.9e-4,-8.4522"
+         style="display:inline;fill:none;stroke:#000000;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker52712-5-6-0-0-1-6)" />
+      <flowRoot
+         inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         transform="matrix(0.10357304,0,0,0.10357304,40.190692,59.902855)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+         id="flowRoot4555-0-5-4-53-7-2"
+         xml:space="preserve"><flowRegion
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           id="flowRegion4557-5-9-0-2-1-7"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+             y="485.7536"
+             x="343.57144"
+             height="52.857124"
+             width="144.28572"
+             id="rect4559-58-8-9-1-7-6" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           id="flowPara4561-05-0-3-5-2-1">nitrate</flowPara></flowRoot>      <flowRoot
+         inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         transform="matrix(0.10357304,0,0,0.10357304,67.692931,60.469819)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+         id="flowRoot4555-0-5-4-53-7-2-8"
+         xml:space="preserve"><flowRegion
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           id="flowRegion4557-5-9-0-2-1-7-5"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+             y="485.7536"
+             x="343.57144"
+             height="52.857124"
+             width="144.28572"
+             id="rect4559-58-8-9-1-7-6-1" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           id="flowPara4561-05-0-3-5-2-1-1">nitrate</flowPara></flowRoot>      <path
+         inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path4607-6-2-8-4-1-3-5"
+         d="m 63.303116,98.464101 7.93e-4,14.951809"
+         style="display:inline;fill:none;stroke:#000000;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker52712-5-6-0-0-1-64)" />
+      <flowRoot
+         inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         transform="matrix(0.10357304,0,0,0.10357304,22.985559,66.176797)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+         id="flowRoot4555-0-5-4-53-7-2-82"
+         xml:space="preserve"><flowRegion
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           id="flowRegion4557-5-9-0-2-1-7-7"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+             y="485.7536"
+             x="343.57144"
+             height="52.857124"
+             width="144.28572"
+             id="rect4559-58-8-9-1-7-6-3" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           id="flowPara4561-05-0-3-5-2-1-5">biomass</flowPara></flowRoot>      <path
+         inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path4607-6-2-8-4-1-3-5-1"
+         d="m 123.75537,98.370828 8e-4,14.951812"
+         style="display:inline;fill:none;stroke:#000000;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker52712-5-6-0-0-1-64-0)" />
+      <flowRoot
+         inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         transform="matrix(0.10357304,0,0,0.10357304,83.43781,66.083522)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+         id="flowRoot4555-0-5-4-53-7-2-82-6"
+         xml:space="preserve"><flowRegion
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           id="flowRegion4557-5-9-0-2-1-7-7-4"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+             y="485.7536"
+             x="343.57144"
+             height="52.857124"
+             width="144.28572"
+             id="rect4559-58-8-9-1-7-6-3-5" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           id="flowPara4561-05-0-3-5-2-1-5-8">biomass</flowPara></flowRoot>      <path
+         inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:connector-curvature="0"
+         id="path4534-2-5-1-9-95"
+         d="m 142.3529,54.832328 c 7.25223,0 7.25223,0 7.25223,0"
+         style="display:inline;fill:none;stroke:#000000;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker52470-8-5-67-2)" />
+      <path
+         inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:connector-curvature="0"
+         id="path4534-2-5-1-9-9-5"
+         d="m 150.80039,60.123995 c -7.39648,0 -7.39648,0 -7.39648,0"
+         style="display:inline;fill:none;stroke:#000000;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker52470-8-5-67-3-3)" />
+      <flowRoot
+         inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         transform="matrix(0.10357304,0,0,0.10357304,116.27635,3.1970243)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+         id="flowRoot4555-0-5-3-9-7-4"
+         xml:space="preserve"><flowRegion
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           id="flowRegion4557-5-9-5-2-9-6"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+             y="485.7536"
+             x="343.57144"
+             height="53.57143"
+             width="98.571426"
+             id="rect4559-58-8-5-6-7-3" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           id="flowPara4561-05-0-8-6-3-1">CO<flowSpan
+   id="flowSpan157727"
+   style="font-size:64.99999762%;baseline-shift:sub">2</flowSpan></flowPara></flowRoot>      <flowRoot
+         inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         transform="matrix(0.10357304,0,0,0.10357304,116.46533,8.3375003)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+         id="flowRoot4555-0-5-3-9-7-0-0"
+         xml:space="preserve"><flowRegion
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           id="flowRegion4557-5-9-5-2-9-4-6"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+             y="485.7536"
+             x="343.57144"
+             height="53.57143"
+             width="98.571426"
+             id="rect4559-58-8-5-6-7-1-5" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           id="flowPara4561-05-0-8-6-3-9-1">O<flowSpan
+   id="flowSpan157729"
+   style="font-size:64.99999762%;baseline-shift:sub">2</flowSpan></flowPara></flowRoot>      <g
+         transform="translate(-84.402082,68.60268)"
+         id="g155803">
+        <rect
+           ry="0.65321404"
+           rx="1.4320731"
+           y="12.324723"
+           x="168.61325"
+           height="4.6541243"
+           width="20.049057"
+           id="rect4682-1-7-1-9-1-4-0"
+           style="display:inline;opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.33221439;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers" />
+        <path
+           style="display:inline;fill:none;stroke:#000000;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker52712-5-6-0-0-1-8-9)"
+           d="m 188.56145,14.365745 2.42606,0.0011"
+           id="path4607-6-2-8-4-1-3-56-5"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96"
+           inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png" />
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot4555-0-5-3-9-7-6-2"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           transform="matrix(0.10357304,0,0,0.10357304,133.68949,-37.641942)"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96"
+           inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"><flowRegion
+             id="flowRegion4557-5-9-5-2-9-8-1"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"><rect
+               id="rect4559-58-8-5-6-7-6-0"
+               width="239.07213"
+               height="108.31194"
+               x="343.57144"
+               y="485.7536"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none" /></flowRegion><flowPara
+             id="flowPara4561-05-0-8-6-3-3-20"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none">organic acids</flowPara></flowRoot>        <path
+           style="display:inline;fill:none;stroke:#000000;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker52712-5-6-0-0-1-8-9-6)"
+           d="m 168.51561,14.274716 -2.42606,-0.0011"
+           id="path4607-6-2-8-4-1-3-56-5-6"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96"
+           inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png" />
+      </g>
+      <g
+         transform="translate(2.1166667,2.6458334)"
+         id="g157247">
+        <rect
+           ry="0.65537387"
+           rx="1.2981811"
+           y="72.03727"
+           x="83.560921"
+           height="4.6695132"
+           width="18.174564"
+           id="rect4682-1-7-1-9-1-4-4"
+           style="display:inline;opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.3168256;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers" />
+        <path
+           style="display:inline;fill:none;stroke:#000000;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker52712-5-6-0-0-1-8-94)"
+           d="m 101.92929,74.085983 2.42606,0.0011"
+           id="path4607-6-2-8-4-1-3-56-0"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96"
+           inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png" />
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot4555-0-5-3-9-7-6-8"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           transform="matrix(0.10357304,0,0,0.10357304,48.644848,22.078296)"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96"
+           inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"><flowRegion
+             id="flowRegion4557-5-9-5-2-9-8-4"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"><rect
+               id="rect4559-58-8-5-6-7-6-4"
+               width="239.07213"
+               height="108.31194"
+               x="343.57144"
+               y="485.7536"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none" /></flowRegion><flowPara
+             id="flowPara4561-05-0-8-6-3-3-8"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none">amino acids</flowPara></flowRoot>      </g>
+      <g
+         transform="translate(-80.604895,74.6503)"
+         id="g155803-0">
+        <rect
+           ry="0.66294461"
+           rx="0.88356102"
+           y="12.290058"
+           x="168.57858"
+           height="4.723454"
+           width="12.369875"
+           id="rect4682-1-7-1-9-1-4-0-5"
+           style="display:inline;opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2628845;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers" />
+        <path
+           style="display:inline;fill:none;stroke:#000000;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker52712-5-6-0-0-1-8-9-8)"
+           d="m 181.15307,14.365745 2.42606,0.0011"
+           id="path4607-6-2-8-4-1-3-56-5-9"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96"
+           inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png" />
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot4555-0-5-3-9-7-6-2-0"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           transform="matrix(0.10357304,0,0,0.10357304,133.68949,-37.641942)"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96"
+           inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"><flowRegion
+             id="flowRegion4557-5-9-5-2-9-8-1-9"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"><rect
+               id="rect4559-58-8-5-6-7-6-0-1"
+               width="239.07213"
+               height="108.31194"
+               x="343.57144"
+               y="485.7536"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none" /></flowRegion><flowPara
+             id="flowPara4561-05-0-8-6-3-3-20-8"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none">sucrose</flowPara></flowRoot>        <path
+           style="display:inline;fill:none;stroke:#000000;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker52712-5-6-0-0-1-8-9-6-0)"
+           d="m 168.51561,14.274716 -2.42606,-0.0011"
+           id="path4607-6-2-8-4-1-3-56-5-6-2"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96"
+           inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png" />
+      </g>
+      <g
+         id="g157310"
+         transform="translate(-79.697733,80.546731)">
+        <rect
+           ry="0.66518897"
+           rx="0.77671021"
+           y="12.282063"
+           x="168.57059"
+           height="4.7394447"
+           width="10.87396"
+           id="rect4682-1-7-1-9-1-4-0-5-8"
+           style="display:inline;opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.24689375;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers" />
+        <path
+           style="display:inline;fill:none;stroke:#000000;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker52712-5-6-0-0-1-8-9-8-8)"
+           d="m 179.56556,14.365745 2.42606,0.0011"
+           id="path4607-6-2-8-4-1-3-56-5-9-9"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96"
+           inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png" />
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot4555-0-5-3-9-7-6-2-0-8"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           transform="matrix(0.10357304,0,0,0.10357304,133.68949,-37.641942)"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96"
+           inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"><flowRegion
+             id="flowRegion4557-5-9-5-2-9-8-1-9-3"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"><rect
+               id="rect4559-58-8-5-6-7-6-0-1-7"
+               width="239.07213"
+               height="108.31194"
+               x="343.57144"
+               y="485.7536"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none" /></flowRegion><flowPara
+             id="flowPara4561-05-0-8-6-3-3-20-8-0"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none">nitrate</flowPara></flowRoot>        <path
+           style="display:inline;fill:none;stroke:#000000;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker52712-5-6-0-0-1-8-9-6-0-6)"
+           d="m 168.51561,14.274716 -2.42606,-0.0011"
+           id="path4607-6-2-8-4-1-3-56-5-6-2-7"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96"
+           inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png" />
+      </g>
+      <g
+         id="g157310-0"
+         transform="translate(-79.924513,48.380953)">
+        <rect
+           ry="0.66518897"
+           rx="0.77671021"
+           y="12.282063"
+           x="168.57059"
+           height="4.7394447"
+           width="10.87396"
+           id="rect4682-1-7-1-9-1-4-0-5-8-1"
+           style="display:inline;opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.24689375;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers" />
+        <path
+           style="display:inline;fill:none;stroke:#000000;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker52712-5-6-0-0-1-8-9-8-8-1)"
+           d="m 179.56556,14.365745 2.42606,0.0011"
+           id="path4607-6-2-8-4-1-3-56-5-9-9-4"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96"
+           inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png" />
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot4555-0-5-3-9-7-6-2-0-8-8"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           transform="matrix(0.10357304,0,0,0.10357304,133.68949,-37.641942)"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96"
+           inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"><flowRegion
+             id="flowRegion4557-5-9-5-2-9-8-1-9-3-6"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"><rect
+               id="rect4559-58-8-5-6-7-6-0-1-7-6"
+               width="239.07213"
+               height="108.31194"
+               x="343.57144"
+               y="485.7536"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none" /></flowRegion><flowPara
+             id="flowPara4561-05-0-8-6-3-3-20-8-0-6"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none">starch</flowPara></flowRoot>        <path
+           style="display:inline;fill:none;stroke:#000000;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker52712-5-6-0-0-1-8-9-6-0-6-6)"
+           d="m 168.51561,14.274716 -2.42606,-0.0011"
+           id="path4607-6-2-8-4-1-3-56-5-6-2-7-6"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96"
+           inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png" />
+      </g>
+      <flowRoot
+         inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         transform="matrix(0.10357304,0,0,0.10357304,23.923895,16.168084)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+         id="flowRoot4555-0-5-3-9-7-65"
+         xml:space="preserve"><flowRegion
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           id="flowRegion4557-5-9-5-2-9-9"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+             y="485.7536"
+             x="343.57144"
+             height="53.57143"
+             width="98.571426"
+             id="rect4559-58-8-5-6-7-4" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           id="flowPara4561-05-0-8-6-3-37">CO<flowSpan
+   id="flowSpan157723-8"
+   style="font-size:64.99999762%;baseline-shift:sub">2</flowSpan></flowPara></flowRoot>      <flowRoot
+         inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         transform="matrix(0.10357304,0,0,0.10357304,34.960799,16.016894)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+         id="flowRoot4555-0-5-3-9-7-0-2"
+         xml:space="preserve"><flowRegion
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           id="flowRegion4557-5-9-5-2-9-4-8"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+             y="485.7536"
+             x="343.57144"
+             height="53.57143"
+             width="98.571426"
+             id="rect4559-58-8-5-6-7-1-8" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           id="flowPara4561-05-0-8-6-3-9-7">O<flowSpan
+   id="flowSpan157725-6"
+   style="font-size:64.99999762%;baseline-shift:sub">2</flowSpan></flowPara></flowRoot>      <path
+         sodipodi:nodetypes="csc"
+         inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:connector-curvature="0"
+         id="path4534-2-5-1-9-91"
+         d="m 61.396715,65.489583 c -0.09542,-3.635251 6.201849,-3.838152 9.40634,-4.274889 2.228042,-0.303658 4.33138,-0.903082 5.027441,-3.284635"
+         style="display:inline;fill:none;stroke:#000000;stroke-width:0.3914572;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker52470-8-5-67-0)" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:connector-curvature="0"
+         id="path4534-2-5-1-9-6"
+         d="m 71.79106,65.867559 c -0.646534,-2.414476 2.048884,-4.840918 3.661459,-6.803571"
+         style="display:inline;fill:none;stroke:#000000;stroke-width:0.391;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <flowRoot
+         inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         transform="matrix(0.10357304,0,0,0.10357304,28.768871,12.326232)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+         id="flowRoot4555-0-5-3-9-14-1-0"
+         xml:space="preserve"><flowRegion
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           id="flowRegion4557-5-9-5-2-52-9-2"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+             y="485.7536"
+             x="343.57144"
+             height="57.44215"
+             width="130.82761"
+             id="rect4559-58-8-5-6-5-8-3" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           id="flowPara4561-05-0-8-6-9-2-9">3:1</flowPara></flowRoot>      <path
+         inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path4607-6-2-8-4-1-3-5-8"
+         d="m 115.48882,118.03705 -41.19938,0.35977"
+         style="display:inline;fill:none;stroke:#000000;stroke-width:0.412;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.824, 0.824;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#TriangleInM);marker-end:url(#marker52712-5-6-0-0-1-64-8)" />
+      <path
+         inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path4607-6-2-8-4-1-3-5-8-6"
+         d="M 103.43299,107.62571 84.572356,107.45318"
+         style="display:inline;fill:none;stroke:#000000;stroke-width:0.36751965;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.73503928, 0.73503928;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#TriangleInM-6);marker-end:url(#marker52712-5-6-0-0-1-64-8-7)" />
+      <flowRoot
+         inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         transform="matrix(0.10357304,0,0,0.10357304,55.476825,57.894315)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+         id="flowRoot4555-0-5-3-9-14-1-0-8"
+         xml:space="preserve"><flowRegion
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           id="flowRegion4557-5-9-5-2-52-9-2-8"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+             y="485.7536"
+             x="343.57144"
+             height="57.44215"
+             width="130.82761"
+             id="rect4559-58-8-5-6-5-8-3-9" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           id="flowPara4561-05-0-8-6-9-2-9-8">3:2</flowPara></flowRoot>      <flowRoot
+         inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         transform="matrix(0.10357304,0,0,0.10357304,55.615708,68.780034)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+         id="flowRoot4555-0-5-3-9-14-1-0-8-8"
+         xml:space="preserve"><flowRegion
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           id="flowRegion4557-5-9-5-2-52-9-2-8-1"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+             y="485.7536"
+             x="343.57144"
+             height="57.44215"
+             width="130.82761"
+             id="rect4559-58-8-5-6-5-8-3-9-6" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           id="flowPara4561-05-0-8-6-9-2-9-8-8">3:1</flowPara></flowRoot>      <flowRoot
+         xml:space="preserve"
+         id="flowRoot4684-73-1-3-7-4-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+         transform="matrix(0.10357304,0,0,0.10357304,40.321008,55.13221)"><flowRegion
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           id="flowRegion4686-2-7-9-6-4-4"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+             id="rect4688-03-81-0-5-6-8"
+             width="235.36554"
+             height="98.994949"
+             x="823.27435"
+             y="282.3129" /></flowRegion><flowPara
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           id="flowPara18393-8-4">NGAM</flowPara></flowRoot>      <rect
+         style="display:inline;opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.23918767;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+         id="rect4682-1-7-1-9-1-4"
+         width="11.070656"
+         height="4.3691754"
+         x="124.48848"
+         y="83.904701"
+         rx="0.7907598"
+         ry="0.61322093" />
+      <flowRoot
+         inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         transform="matrix(0.10357304,0,0,0.10357304,15.350716,-9.4073989)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.84254265px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;letter-spacing:0px;word-spacing:0px;display:inline;fill:#8dc0a3;fill-opacity:0.73333333;stroke:none;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+         id="flowRoot4555-0-5-3-9-14-1-2"
+         xml:space="preserve"><flowRegion
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.84254265px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#8dc0a3;fill-opacity:0.73333333;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           id="flowRegion4557-5-9-5-2-52-9-9"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.84254265px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#8dc0a3;fill-opacity:0.73333333;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+             y="485.7536"
+             x="343.57144"
+             height="57.44215"
+             width="130.82761"
+             id="rect4559-58-8-5-6-5-8-6" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.84254265px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#78b293;fill-opacity:0.73333333;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           id="flowPara4561-05-0-8-6-9-2-4">CYTOSOL</flowPara></flowRoot>      <flowRoot
+         inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         transform="matrix(0.10357304,0,0,0.10357304,47.15032,-7.591405)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.84254265px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;letter-spacing:0px;word-spacing:0px;display:inline;fill:#50936c;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+         id="flowRoot4555-0-5-3-9-14-1-2-5"
+         xml:space="preserve"><flowRegion
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.84254265px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#50936c;fill-opacity:1;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           id="flowRegion4557-5-9-5-2-52-9-9-5"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.84254265px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#50936c;fill-opacity:1;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+             y="485.7536"
+             x="343.57144"
+             height="49.055534"
+             width="247.59492"
+             id="rect4559-58-8-5-6-5-8-6-4" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.84254265px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#50936c;fill-opacity:1;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           id="flowPara4561-05-0-8-6-9-2-4-7">CHLOROPLAST</flowPara></flowRoot>      <flowRoot
+         inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         transform="matrix(0.10357304,0,0,0.10357304,51.329225,19.945503)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.84254265px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;letter-spacing:0px;word-spacing:0px;display:inline;fill:#939a32;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+         id="flowRoot4555-0-5-3-9-14-1-2-5-0"
+         xml:space="preserve"><flowRegion
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.84254265px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#939a32;fill-opacity:1;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           id="flowRegion4557-5-9-5-2-52-9-9-5-5"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.84254265px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#939a32;fill-opacity:1;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+             y="485.7536"
+             x="343.57144"
+             height="49.055534"
+             width="247.59492"
+             id="rect4559-58-8-5-6-5-8-6-4-7" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.84254265px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#939a32;fill-opacity:1;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           id="flowPara4561-05-0-8-6-9-2-4-7-6">VACUOLE</flowPara></flowRoot>      <rect
+         inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         ry="0"
+         rx="0"
+         y="23.782326"
+         x="21.11867"
+         height="104.23792"
+         width="144.06024"
+         id="rect3723-2-8-9-1-4"
+         style="display:inline;opacity:1;fill:none;fill-opacity:0.2;fill-rule:evenodd;stroke:#000000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers" />
+      <flowRoot
+         inkscape:export-filename="/home/corinna/Dropbox/My PC (LAPTOP-9VUS0OBC)/Documents/1 - Professional/1 - Sweetlove_group/9 - Talks_Presentations/GCSB 2024/plant_cetch_nadh_fluxmap.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         xml:space="preserve"
+         id="flowRoot4684-73-3-1-8-4-9-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.65469551px;line-height:0.75;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+         transform="matrix(0.10357304,0,0,0.10357304,-16.394281,21.459422)"><flowRegion
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.65469551px;line-height:0.75;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+           id="flowRegion4686-2-6-1-8-2-5-5"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.65469551px;line-height:0.75;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none"
+             id="rect4688-03-0-6-4-6-0-3"
+             width="235.36554"
+             height="98.994949"
+             x="823.27435"
+             y="282.3129" /></flowRegion><flowPara
+           id="flowPara5310-8-7-1-4-7"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;line-height:0.75;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;text-align:center;text-anchor:middle;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none">CBB</flowPara><flowPara
+           id="flowPara5314-1-1-3-8-3"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.24861908px;line-height:0.75;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;text-align:center;text-anchor:middle;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none">cycle</flowPara></flowRoot>      <g
+         transform="matrix(0.37223703,0,0,0.37223703,41.297439,17.987664)"
+         id="g5332-3-2-6-2"
+         style="stroke-width:0.91681439;stroke-miterlimit:4;stroke-dasharray:none">
+        <circle
+           style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.91681439;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+           id="path4532-4-5-1-8"
+           cx="107.34523"
+           cy="-201.55061"
+           r="16.630953"
+           transform="translate(0,297)" />
+      </g>
+    </g>
+  </g>
+</svg>
